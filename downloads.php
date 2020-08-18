@@ -33,12 +33,20 @@
       </tr>
     </thead>
     <tbody>
+    <tr>
+        <td>
+          <a id='download_version' onclick='downloadv("beta1.0.1")'>Beta 1.0.1</a>
+        </td>
+        <td>
+          Omm Beta 1.0.1
+        </td>
+      </tr>
       <tr>
         <td>
           <a id='download_version' onclick='downloadv("beta1.0.0")'>Beta 1.0.0</a>
         </td>
         <td>
-          Omm Beta 1
+          Omm Beta 1.0.0
         </td>
       </tr>
     </tbody>
@@ -48,7 +56,7 @@
     function downloadv(version) {
       switch (navigator.platform) {
         case "Win32":
-          window.location.href = '/versions/' + version + '/setup.msi'
+          window.location.href = 'https://github.com/omm-lang/omm/releases/download/' + version + '/setup.msi';
           break;
         default:
         alert("Sorry, but the Omm installer is not available on your platform. Try installing from the source")
