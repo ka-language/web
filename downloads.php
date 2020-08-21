@@ -35,6 +35,15 @@
     <tbody>
       <tr>
         <td>
+          <a class='download_version' onclick='downloadv("beta1.1.1")'>Beta 1.1.1</a>
+        </td>
+        <td>
+          Omm Beta 1.1.1
+        </td>
+      </tr>
+      <tr>
+      <tr>
+        <td>
           <a class='download_version' onclick='downloadv("beta1.1.0")'>Beta 1.1.0</a>
         </td>
         <td>

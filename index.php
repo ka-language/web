@@ -36,13 +36,13 @@
         Omm is a general purpose language with arbitrary precision
       </p>
 
-      <button class='ui download-btn button' onclick='download()'>Download Latest Version (Beta 1.1.0)</button>
+      <button class='ui download-btn button' onclick='download()'>Download Latest Version (Beta 1.1.1)</button>
 
       <script>
 
         function download() {
 
-          const version = "b1.1.0"
+          const version = "b1.1.1"
 
           switch (navigator.platform) {
             case "Win32":
