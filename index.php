@@ -118,8 +118,6 @@
 
   </div>
 
-  <div id='prefoot'></div>
-
 </body>
 
 </html>

@@ -23,7 +23,7 @@
     <link rel='stylesheet' href='styles.css'>
   </head>
 
-  <div id='prenav'></div>
+  <footer id='prenav'></footer>
 
 </body>
 
