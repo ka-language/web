@@ -1,3 +1,2 @@
 *.wixobj
 *.wixpdb
-versions/**/*.msi
