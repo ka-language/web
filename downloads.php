@@ -33,9 +33,17 @@
       </tr>
     </thead>
     <tbody>
-    <tr>
+      <tr>
         <td>
-          <a id='download_version' onclick='downloadv("beta1.0.1")'>Beta 1.0.1</a>
+          <a class='download_version' onclick='downloadv("beta1.1.0")'>Beta 1.1.0</a>
+        </td>
+        <td>
+          Omm Beta 1.1.0
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a class='download_version' onclick='downloadv("beta1.0.1")'>Beta 1.0.1</a>
         </td>
         <td>
           Omm Beta 1.0.1
@@ -43,7 +51,7 @@
       </tr>
       <tr>
         <td>
-          <a id='download_version' onclick='downloadv("beta1.0.0")'>Beta 1.0.0</a>
+          <a class='download_version' onclick='downloadv("beta1.0.0")'>Beta 1.0.0</a>
         </td>
         <td>
           Omm Beta 1.0.0
