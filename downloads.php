@@ -35,16 +35,23 @@
     <tbody>
       <tr>
         <td>
-          <a class='download_version' onclick='downloadv("beta1.1.1")'>Beta 1.1.1</a>
+          <a class='download_version' onclick='downloadv("b1.1.2")'>Beta 1.1.2</a>
+        </td>
+        <td>
+          Omm Beta 1.1.2
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a class='download_version' onclick='downloadv("b1.1.1")'>Beta 1.1.1</a>
         </td>
         <td>
           Omm Beta 1.1.1
         </td>
       </tr>
       <tr>
-      <tr>
         <td>
-          <a class='download_version' onclick='downloadv("beta1.1.0")'>Beta 1.1.0</a>
+          <a class='download_version' onclick='downloadv("b1.1.0")'>Beta 1.1.0</a>
         </td>
         <td>
           Omm Beta 1.1.0
@@ -52,7 +59,7 @@
       </tr>
       <tr>
         <td>
-          <a class='download_version' onclick='downloadv("beta1.0.1")'>Beta 1.0.1</a>
+          <a class='download_version' onclick='downloadv("b1.0.1")'>Beta 1.0.1</a>
         </td>
         <td>
           Omm Beta 1.0.1
@@ -60,7 +67,7 @@
       </tr>
       <tr>
         <td>
-          <a class='download_version' onclick='downloadv("beta1.0.0")'>Beta 1.0.0</a>
+          <a class='download_version' onclick='downloadv("b1.0.0")'>Beta 1.0.0</a>
         </td>
         <td>
           Omm Beta 1.0.0
@@ -76,7 +83,7 @@
           window.location.href = 'https://github.com/omm-lang/omm/releases/download/' + version + '/setup.msi';
           break;
         default:
-        alert("Sorry, but the Omm installer is not available on your platform. Try installing from the source")
+        alert("Sorry, but the Omm installer is not available on your platform.")
       }
     }
   </script>
