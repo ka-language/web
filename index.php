@@ -36,17 +36,17 @@
         Omm is a general purpose language with arbitrary precision
       </p>
 
-      <button class='ui download-btn button' onclick='download()'>Download Latest Version (Beta 1.1.2)</button>
+      <button class='ui download-btn button' onclick='download()'>Download Latest Version (Beta 1.0.0)</button>
 
       <script>
 
         function download() {
 
-          const version = "b1.1.2"
+          const version = "b1.0.0"
 
           switch (navigator.platform) {
             case "Win32":
-              window.location.href = 'https://github.com/omm-lang/omm/releases/download/' + version + '/setup.msi'
+              window.location.href = 'https://github.com/omm-lang/omm-suite/releases/download/' + version + '/setup.msi'
               break;
             default:
               alert("Sorry, but the Omm installer is not available on your platform.")
